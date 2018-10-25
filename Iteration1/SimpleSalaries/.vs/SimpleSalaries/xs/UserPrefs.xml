@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{B4BAA65D-D5AF-4374-A551-C358144884A9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test2/Test.cs">
+    <Files>
+      <File FileName="Program.cs" Line="15" Column="10" />
+      <File FileName="Test2/Test.cs" Line="11" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SimpleSalaries" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SimpleSalaries PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

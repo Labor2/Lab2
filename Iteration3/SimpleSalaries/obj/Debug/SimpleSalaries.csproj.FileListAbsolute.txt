@@ -1,0 +1,17 @@
+//danfoss.net/PersonalDrives/u323732/My Documents/Visual Studio 2008/Projects/Salaries/SimpleSalaries/bin/Debug/SimpleSalaries.exe
+//danfoss.net/PersonalDrives/u323732/My Documents/Visual Studio 2008/Projects/Salaries/SimpleSalaries/bin/Debug/SimpleSalaries.pdb
+//danfoss.net/PersonalDrives/u323732/My Documents/Visual Studio 2008/Projects/Salaries/SimpleSalaries/obj/Debug/ResolveAssemblyReference.cache
+//danfoss.net/PersonalDrives/u323732/My Documents/Visual Studio 2008/Projects/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.exe
+//danfoss.net/PersonalDrives/u323732/My Documents/Visual Studio 2008/Projects/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.pdb
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/bin/Debug/SimpleSalaries.exe
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/bin/Debug/SimpleSalaries.pdb
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.csprojAssemblyReference.cache
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.csproj.CoreCompileInputs.cache
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.exe
+/Users/raikolimmart/Desktop/Salaries/SimpleSalaries/obj/Debug/SimpleSalaries.pdb
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/bin/Debug/SimpleSalaries.exe
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/bin/Debug/SimpleSalaries.pdb
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/obj/Debug/SimpleSalaries.csprojAssemblyReference.cache
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/obj/Debug/SimpleSalaries.csproj.CoreCompileInputs.cache
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/obj/Debug/SimpleSalaries.exe
+/Users/raikolimmart/Desktop/Lab2/Iteration3/SimpleSalaries/obj/Debug/SimpleSalaries.pdb
