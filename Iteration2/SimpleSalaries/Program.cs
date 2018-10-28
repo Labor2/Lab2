@@ -30,7 +30,8 @@ namespace SimpleSalaries
 
         public static string CalculateFromFile(string tempLine)
         {
-            if (tempLine != "") {
+            if (!String.IsNullOrEmpty(tempLine) && tempLine.Length >= 2) {
+                tempLine = tempLine.Trim();
                 Char firstChar = tempLine[0]; //first char
                 String numbers = tempLine.Substring(1, tempLine.Length - 1); //rest of the values
 
@@ -54,8 +55,22 @@ namespace SimpleSalaries
         }
         public static double CalculateNetoSalary(string inputNumbers)
         {
-            double number = double.Parse(inputNumbers);
-            return (number - (number * 0.236));
+            if (inputNumbers.All(char.IsDigit))
+            {
+                double number = double.Parse(inputNumbers);
+                if (number > 0)
+                {
+                    return (number - (number * 0.236));
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }

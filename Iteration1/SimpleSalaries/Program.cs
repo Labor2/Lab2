@@ -23,15 +23,36 @@ namespace SimpleSalaries
                         tempLine = reader.ReadLine();
 
                         double netoSalary = CalculateNetoSalary(tempLine);
-                        Console.WriteLine(netoSalary);
+                        if (netoSalary < 0)
+                        {
+                            Console.WriteLine("Value is incorrect");
+                        }
+                        else
+                        {
+                            Console.WriteLine(netoSalary);
+                        }
                 }
             }
         }
 
         public static double CalculateNetoSalary(string inputNumbers)
         {
-            double number = double.Parse(inputNumbers);
-            return (number - (number * 0.236));
+            if (inputNumbers.All(char.IsDigit))
+            {
+                double number = double.Parse(inputNumbers);
+                if (number > 0)
+                {
+                    return (number - (number * 0.236));
+                }
+                else 
+                {
+                    return -1;
+                }
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }

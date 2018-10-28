@@ -29,15 +29,19 @@ namespace SimpleSalaries
                     string tempLine;
                     tempLine = reader.ReadLine();
 
-                    if (tempLine != "")
+                    if (!String.IsNullOrEmpty(tempLine) && tempLine.Length >= 2)
                     {
+                        tempLine = tempLine.Trim();
                         Char firstChar = tempLine[0]; //first char
                         String numbers = tempLine.Substring(1, tempLine.Length - 1); //rest of the values
 
                         if (firstChar == 'G' && numbers.All(char.IsDigit))
                         {
                             double netoSalary = CalculateNetoSalary(numbers);
-                            sum = sum + netoSalary;
+                            if (netoSalary > 0)
+                            {
+                                sum = sum + netoSalary;
+                            }
 
                         }
                         else if (firstChar == 'N' && numbers.All(char.IsDigit))
@@ -52,8 +56,22 @@ namespace SimpleSalaries
         }
         public static double CalculateNetoSalary(string inputNumbers)
         {
-            double number = double.Parse(inputNumbers);
-            return (number - (number * 0.236));
+            if (inputNumbers.All(char.IsDigit))
+            {
+                double number = double.Parse(inputNumbers);
+                if (number > 0)
+                {
+                    return (number - (number * 0.236));
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
